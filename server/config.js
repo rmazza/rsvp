@@ -2,5 +2,5 @@
 module.exports = {
   AUTH0_DOMAIN: 'rmazza.auth0.com', // e.g., kmaida.auth0.com
   AUTH0_API_AUDIENCE: 'http://localhost:8083/api/', // e.g., 'http://localhost:8083/api/'
-  MONGO_URI: process.env.MONGO_URI || 'mongodb://<dbuser>:<dbpassword>@ds117093.mlab.com:17093/rsvp'
+  MONGO_URI: process.env.MONGO_URI || 'mongodb://rsvpDbAdmin:!amL3g3nd@ds117093.mlab.com:17093/rsvp'
 };
