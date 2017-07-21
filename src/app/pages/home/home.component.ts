@@ -8,7 +8,7 @@ import { Title } from '@angular/platform-browser';
 })
 export class HomeComponent implements OnInit {
 
-  pageTitle: string = 'Events';
+  pageTitle = 'Events';
 
   constructor(private title: Title) { }
 
